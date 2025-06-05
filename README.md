@@ -4,9 +4,7 @@ Shipping insight display platform
 
 ## JavaScript version
 
-Open `index.html` in a web browser. The page loads `data.csv` and displays a
-line chart using Chart.js. Select a data series from the dropdown and use your
-mouse wheel or drag to zoom and pan along the time axis.
+Open `index.html` in any modern browser (including the "Open Preview" feature in VS Code for Web). The page contains the CSV data inline so it works even when opened directly from the filesystem. It renders an interactive chart using Chart.js with zoom and pan controls. Use the dropdown to choose a series.
 
 ## Python Dash version
 
