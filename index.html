@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ChartInsights Viewer</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-adapter-date-fns"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-zoom@1.3.1/dist/chartjs-plugin-zoom.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/papaparse@5.3.1/papaparse.min.js"></script>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 20px; }
+        canvas { max-width: 100%; }
+    </style>
+</head>
+<body>
+    <h1>ChartInsights Viewer</h1>
+    <select id="series-select"></select>
+    <canvas id="chart"></canvas>
+    <script src="main.js"></script>
+</body>
+</html>

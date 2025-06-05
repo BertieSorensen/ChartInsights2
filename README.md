@@ -2,19 +2,20 @@
 
 Shipping insight display platform
 
-## Requirements
-- Python 3.12+
-- dash
-- pandas
+## JavaScript version
 
-Install dependencies:
+Open `index.html` in a web browser. The page loads `data.csv` and displays a
+line chart using Chart.js. Select a data series from the dropdown and use your
+mouse wheel or drag to zoom and pan along the time axis.
+
+## Python Dash version
+
+A legacy Dash implementation is kept in `app.py`. Install requirements with:
 ```bash
 pip install dash pandas
 ```
-
-## Running the application
-Ensure `data.csv` is present in the repository root. Then start the Dash app:
+Run the server:
 ```bash
 python app.py
 ```
-Open your browser at <http://127.0.0.1:8050> to interact with the chart. Select a data series from the dropdown and use the range slider or zoom controls to explore the time axis.
+Then browse to <http://127.0.0.1:8050>.
